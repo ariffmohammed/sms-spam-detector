@@ -1,4 +1,5 @@
 SMS Spam Detector
+
 A machine learning project that classifies SMS messages as spam or not spam using Python and Logistic Regression.
 How It Works
 The model is trained on real SMS messages from the Kaggle SMS Spam Collection dataset. Each message is converted into a bag-of-words feature vector — a list of 1s and 0s representing whether each vocabulary word appears in the message. Logistic Regression then learns which word patterns indicate spam.
